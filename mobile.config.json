@@ -1,0 +1,23 @@
+{
+  "name": "ClubSandwich",
+  "displayName": "ClubSandwich",
+  "expo": {
+    "name": "ClubSandwich",
+    "slug": "club-sandwich",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "isPublic": true
+  },
+  "build": {
+    "isPublic": true,
+    "preview": true,
+    "sftp": {
+      "enabled": true,
+      "isPublic": true
+    }
+  },
+  "deployment": {
+    "isPublic": true,
+    "target": "preview"
+  }
+}
